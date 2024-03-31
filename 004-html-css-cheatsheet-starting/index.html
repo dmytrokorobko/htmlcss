@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cheat Sheet</title>
+</head>
+<body>
+    <div id="top"></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#html-tables">HTML Tables</a></li>
+                <li><a href="#html-basic">Basic HTML</a></li>
+                <li><a href="#css-selectors">CSS Selectors</a></li>
+                <li><a href="#css-properties">CSS Properties</a></li>
+                <li><a href="#footer">Footer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <h1>Cheat Sheet</h1>
+        <p>Description for basic html and css<br>tags and properties</p>
+    </div>
+
+    <div class="content">
+        <div id="about-me">
+            <h2>About Me</h2>
+            <p>Hi and welcome to my small website. In this project I've created this web resource to show my current skills in building one paged websites. The main idea was to create cheat sheet of html and css tags, properties and examples of how to use them in proper way to get correct structure of DOM and attractive view for users coming here.</p>
+        </div>
+
+        <div id="html-tables">
+            <h2>HTML Tables</h2>
+            <p>Basic tags to create tables</p>
+
+            <!-- Table Tags -->
+            <h3>Table Tags</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tag">&lt;table&gt;</td>
+                        <td class="caption">Table</td>
+                        <td class="description">The wrapper element for all html tables</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;thead&gt;</td>
+                        <td class="caption">Table Head</td>
+                        <td class="description">The set of rows defining the column headers in a table</td>
+                    </tr>                    
+                    <tr>
+                        <td class="tag">&lt;tbody&gt;</td>
+                        <td class="caption">Table Body</td>
+                        <td class="description">The set of rows containing actual table data</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;tr&gt;</td>
+                        <td class="caption">Table Row</td>
+                        <td class="description">The table row container</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;td&gt;</td>
+                        <td class="caption">Table Data</td>
+                        <td class="description">The table cell container</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;th&gt;</td>
+                        <td class="caption">Table Head Data</td>
+                        <td class="description">The table head data cell</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;tfoot&gt;</td>
+                        <td class="caption">Table Foot</td>
+                        <td class="description">The set of rows defining the footer in a table</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Table Attributes -->
+            <h3>Table Tags</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tag">colspan</td>
+                        <td class="caption">Column Span</td>
+                        <td class="description">Defines how many columns a td element should span<br><span class="code">&lt;td colspan=&quot;2&quot;&gt;</span></td>
+                    </tr>
+                    <tr>
+                        <td class="tag">rowspan</td>
+                        <td class="caption">Row Span</td>
+                        <td class="description">Defines how many rows a td element should span<br><span class="code">&lt;td rowspan=&quot;3&quot;&gt;</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="html-basic">
+            <h2>Basic HTML Tags</h2>
+            <p>Basic tags to create structure and components on webpage</p>
+
+            <!-- Basic Tags -->
+            <h3>Basic Structure Tags</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Description</th>                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tag">&lt;!DOCTYPE&gt;</td>
+                        <td class="description">Defines the document type</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;html&gt;</td>
+                        <td class="description">Defines an HTML document</td>
+                    </tr>                    
+                    <tr>
+                        <td class="tag">&lt;head&gt;</td>
+                        <td class="description">Contains metadata/information for the document</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;title&gt;</td>
+                        <td class="description">Defines a title for the document</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;body&gt;</td>
+                        <td class="description">Defines the document's body</td>
+                    </tr>                    
+                </tbody>
+            </table>
+
+            <!-- Basic Text Tags -->
+            <h3>Basic Text Tags</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Description</th>                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tag">&lt;h1&gt; - &lt;h6&gt;</td>
+                        <td class="description">Defines HTML headings: h1 is the most valuable</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;p&gt;</td>
+                        <td class="description">Defines a paragraph</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;span&gt;</td>
+                        <td class="description">Defines a section in a document</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Links -->
+            <h3>Link Tags</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Description</th>                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tag">&lt;a&gt;</td>
+                        <td class="description">Defines a hyperlink</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;link&gt;</td>
+                        <td class="description">Defines the relationship between a document and an external resource (most used to link to style sheets)</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;nav&gt;</td>
+                        <td class="description">Defines navigation links</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="css-selectors">
+            <h2>CSS Selectors</h2>
+            <p>Selectors are patterns used to select the elements you want to style</p>
+
+            <h3>Basic Selectors</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Selector</th>                        
+                        <th>Example</th>          
+                        <th>Example Description</th>              
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tag">*</td>
+                        <td class="example">*</td>
+                        <td class="description">Selects all elements</td>
+                        
+                    </tr>
+                    <tr>
+                        <td class="tag">element</td>
+                        <td class="example">p</td>
+                        <td class="description">Selects all &lt;p&gt; elements</td>                        
+                    </tr>
+                    <tr>
+                        <td class="tag">#id</td>
+                        <td class="example">#about-me</td>
+                        <td class="description">Selects the element with id=&quot;about-me&quot;</td>                        
+                    </tr>
+                    <tr>
+                        <td class="tag">.class</td>
+                        <td class="example">#content</td>
+                        <td class="description">Selects all elements with class=&quot;content&quot;</td>                        
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Advanced Selectors</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Selector</th>                        
+                        <th>Example</th>          
+                        <th>Example Description</th>              
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tag">:hover</td>
+                        <td class="example">a:hover</td>
+                        <td class="description">Selects links on mouse over</td>
+                        
+                    </tr>
+                    <tr>
+                        <td class="tag">:visited</td>
+                        <td class="example">a:visited</td>
+                        <td class="description">Selects all visited links</td>                        
+                    </tr>
+                    <tr>
+                        <td class="tag">::before</td>
+                        <td class="example">p::before</td>
+                        <td class="description">Insert something before the content of each &lt;p&lt; element</td>                        
+                    </tr>
+                    <tr>
+                        <td class="tag">::after</td>
+                        <td class="example">p::after</td>
+                        <td class="description">Insert something after the content of each &lt;p&lt; element</td>                        
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="css-properties">
+            <h2>CSS Basic Properties</h2>
+            <p>Some most popular basic CSS properties to work with in each project</p>
+
+            <h3>Text Properties</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Property</th>                        
+                        <th>Description</th>          
+                        <th>Values</th>              
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tag">color</td>
+                        <td class="description">Sets the color of a text</td>
+                        <td class="example">RGB, hex, keyword</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">line-height</td>
+                        <td class="description">Sets the distance between lines</td>
+                        <td class="example">normal, number, length, %</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">letter-spacing</td>
+                        <td class="description">Increase or decrease the space between characters</td>
+                        <td class="example">normal, length</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">text-align</td>
+                        <td class="description">Aligns the text in an element</td>
+                        <td class="example">left, right, center, justify</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">text-decoration</td>
+                        <td class="description">Adds decoration to text</td>
+                        <td class="example">none, underline, overline, line-through</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">text-indent</td>
+                        <td class="description">Indents the first line of text in an element</td>
+                        <td class="example">length, %</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">text-transform</td>
+                        <td class="description">Controls the letters in an element</td>
+                        <td class="example">none, capitalize, uppercase, lowercase</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+
+            <h3>List Properties</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Property</th>                        
+                        <th>Description</th>          
+                        <th>Values</th>              
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tag">list-style</td>
+                        <td class="description">Sets all the properties for a list in one declaration</td>
+                        <td class="example">list-style-type, list-style-position, list-style-image, inherit</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">list-style-image</td>
+                        <td class="description">Specifies an image as the list-item marker</td>
+                        <td class="example">URL, none, inherit</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">list-style-position</td>
+                        <td class="description">Specifies where to place the list-item marker</td>
+                        <td class="example">inside, outside, inherit</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">list-style-type</td>
+                        <td class="description">Specifies the type of list-item marker</td>
+                        <td class="example">none, disc, circle, square, decimal, decimal-leading-zero,
+                            armenian, georgian, lower-alpha, upper-alpha, lower-greek,
+                            lower-latin, upper-latin, lower-roman, upper-roman, inherit</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+
+            <h3>Border Properties</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Property</th>                        
+                        <th>Description</th>          
+                        <th>Values</th>              
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tag">border</td>
+                        <td class="description">Sets all the border properties in one declaration</td>
+                        <td class="example">border-width, border-style, border-color</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Font Properties</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Property</th>                        
+                        <th>Description</th>          
+                        <th>Values</th>              
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tag">font</td>
+                        <td class="description">Sets all the font properties in one declaration</td>
+                        <td class="example">font-style, font-variant, font-weight, font-size/line-height, font-family, caption, icon, menu, message-box, small-caption, status-bar, inherit</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">font-family </td>
+                        <td class="description">Specifies the font family for text</td>
+                        <td class="example">family-name, generic-family, inherit</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">font-size</td>
+                        <td class="description">Specifies the font size of text</td>
+                        <td class="example">xx-small, x-small, small, medium, large, x-large, xx-large, smaller, larger, length, %, inherit</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">font-style</td>
+                        <td class="description">Specifies the font style for text</td>
+                        <td class="example">normal, italic, oblique, inherit</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">font-variant</td>
+                        <td class="description">Specifies whether or not a text should be displayed in a small-caps font</td>
+                        <td class="example">normal, small-caps, inherit</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">font-weight </td>
+                        <td class="description"> 	Specifies the weight of a font</td>
+                        <td class="example">normal, bold, bolder, lighter,
+                            100, 200, 300, 400, 500, 600, 700, 800, 900, inherit.<br>
+                            <strong>Careful, many of these are not supported!</strong></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+
+        </div>        
+
+    </div>
+
+    <footer id="footer">
+        <div id="info">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sapiente quam fuga vero, vitae unde laudantium doloremque deleniti dignissimos reprehenderit quasi magnam a accusamus? Recusandae quas nulla officia delectus aliquid.</p>
+        </div>
+
+        <div id="copyright">
+            <p>&copy;2024. Some copyright text is going to be here</p>
+            <p>Project for:<br><a href="https://www.codecademy.com/career-journey/full-stack-engineer" target="_blank">Codecademy<br>Fullstack Developer course</a></p>
+        </div>
+
+        <div id="contact">
+            <p>Some contact information may be written here</p>
+        </div>
+    </footer>
+
+    <div id="go-top">
+        <a href="#top"><img src="pictures/top.png" alt="Go Top"></a>
+    </div>
+    
+</body>
+</html>
