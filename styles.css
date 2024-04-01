@@ -35,16 +35,36 @@ header ul li a:hover {
     text-decoration: underline;
 }
 
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 h2 {
-    margin: 50px 0 20px;
+    margin: 0 0 20px;
+    background-color: ghostwhite;
+    color: dimgray;
+    position: relative;
+}
+
+h2::before {
+    content: '';
+    background: rgb(57,87,87);
+    background: linear-gradient(90deg, rgba(57,87,87,0) 0%, rgba(57,87,87,1) 25%, rgba(57,87,87,1) 50%, rgba(57,87,87,1) 75%, rgba(57,87,87,0) 100%);
+    position: absolute;
+    top: -40px;
+    left: 25%;
+    width: 50%;
+    height: 2px;
+    opacity: 50%;
 }
 
 h3 {
     text-align: center;
+    color: darkslategrey;
 }
 
 p {
-    line-height: 1.2;
+    line-height: 1.4;
 }
 
 table {
@@ -56,6 +76,31 @@ table {
 th, td {
     border: 1px solid darkslategrey;
     padding: 5px;
+}
+
+th {
+    background-color: azure;
+    color: gray;
+}
+
+tr:hover {
+    background-color: beige;
+}
+
+.tag {
+    width: 20%;
+}
+
+.caption {
+    width: 20%;
+}
+
+.example {
+    width: 20%;
+}
+
+.values {
+    width: 50%;
 }
 
 .content {
@@ -76,15 +121,26 @@ th, td {
     opacity: 90%;    
 }
 
+.banner .banner-bg {    
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 100%);
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 60%;
+}
+
 .banner:hover {
     opacity: 100%;
 }
 
 .banner h1 {
     position: absolute;
-    top: 35%;
-    left: 10%;
-    font-size: 42px;
+    top: 40%;
+    left: 5%;
+    font-size: 42px; 
 }
 
 .banner p {
@@ -97,32 +153,27 @@ th, td {
 
 footer {
     background-color: dimgrey;
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 210px;
     line-height: 1.4;
-    margin: 50px 0 0;
+    margin: 50px 0 0;   
+    overflow: auto; 
 }
 
-footer #info {    
+footer #info {   
+    display: block; 
+    float: left;
     width: 30%;
     margin: 10px;
-    position: absolute;
-    left: 0;
     text-align: justify;
     color: beige;
-    height: 100%;
 }
 
 footer #copyright {
     width: 30%;
     margin: 10px;
-    position: absolute;
-    left: 33%;
+    display: block; 
+    float: left;
     text-align: center;
     color: ghostwhite;
-    height: 100%;
 }
 
 footer #copyright a {
@@ -136,11 +187,10 @@ footer #copyright a:hover {
 footer #contact {
     width: 30%;
     margin: 10px;
-    position: absolute;
-    left: 66%;
     color: beige;
     text-align: justify;
-    height: 100%;
+    display: block; 
+    float: left;
 }
 
 #go-top {
@@ -152,4 +202,8 @@ footer #contact {
 
 #go-top a img {
     width: 100%;
+}
+
+#about-me, #html-tables, #html-basic, #css-selectors, #css-properties {
+    padding-top: 100px;
 }
